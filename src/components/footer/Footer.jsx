@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFacebook, FaTwitter, FaInstagram, FaPinterest } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaPinterest, FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -64,7 +64,7 @@ const Footer = () => {
             </div>
         </div>
         <div className="w-full max-w-[1100px] mx-auto px-6 py-8 flex justify-between text-white
-        border-t-4 flex-col sm:flex-row border-black/30">
+        border-t-4 flex-col sm:flex-row border-black/30 gap-8">
             <div className="text-center">
                 <p className="text-gray-400">
                     &copy; 2024  Experiences, All rights reserved

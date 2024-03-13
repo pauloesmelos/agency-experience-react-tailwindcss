@@ -1,8 +1,8 @@
 import React from 'react';
+import { FaCircle } from "react-icons/fa";
+import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
 import { data } from '../../data/data';
 import Component from './component/Component';
-import { MdOutlineArrowBackIos, MdOutlineArrowForwardIos } from "react-icons/md";
-import { FaCircle } from "react-icons/fa";
 
 const Slide = () => {
   const [slides, setSlides] = React.useState([]);
@@ -54,7 +54,7 @@ const Slide = () => {
                             <FaCircle 
                                 key={index * Math.random()} 
                                 size={20}
-                                className="cursor-pointer text-blue-500 hover:text-slate-500 duration-200"
+                                className="cursor-pointer text-blue-500 duration-200"
                                 onClick={() => goToIndex(i)}
                             />
                         ) : (

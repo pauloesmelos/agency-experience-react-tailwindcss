@@ -11,27 +11,27 @@ const Mobile = ({ mobile }) => {
         <div className="w-full h-full">
             <ul className="w-full h-full text-white gap-2 flex flex-col justify-center items-center">
                 <li>
-                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-400" href="#">
+                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-600" href="#">
                         Home
                     </a>
                 </li>
                 <li>
-                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-400" href="#">
+                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-600" href="#">
                         My Reserves
                     </a>
                 </li>
                 <li>
-                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-400" href="#">
+                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-600" href="#">
                         Destinations
                     </a>
                 </li>
                 <li>
-                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-400" href="#">
+                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-600" href="#">
                         Rooms
                     </a>
                 </li>
                 <li>
-                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-400" href="#">
+                    <a className="font-bold text-2xl lg:text-4xl hover:text-blue-600" href="#">
                         Contact
                     </a>
                 </li>
